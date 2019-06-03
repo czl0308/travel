@@ -3,6 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+// 重置默认样式
+import './assets/css/reset.css'
+// 1 像素边框
+import './assets/css/border.css'
 
 Vue.config.productionTip = false
 
