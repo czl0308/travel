@@ -18,5 +18,9 @@ module.exports = {
     source: 'src',
     img: 'src',
     image: 'xlink:href'
-  }
+  },
+  loaders: utils.cssLoaders({
+    sourceMap: sourceMapEnabled,
+    extract: isProduction,
+  }),
 }

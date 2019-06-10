@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <div class="header-left"></div>
+    <div class="header-left">hello world</div>
     <div class="header-input"></div>
     <div class="header-right"></div>
   </div>
@@ -13,5 +13,7 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-
+.header {
+  font-size: 60px;
+}
 </style>
