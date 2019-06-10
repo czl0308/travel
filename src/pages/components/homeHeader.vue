@@ -12,8 +12,10 @@ export default {
 }
 </script>
 
-<style lang="stylus" scoped>
-.header {
-  font-size: 60px;
+<style>
+.header .header-left {
+  background-color: red;
+  width: 300px;
+  height: 100px;
 }
 </style>
