@@ -13,9 +13,4 @@ export default {
 </script>
 
 <style>
-.header .header-left {
-  background-color: red;
-  width: 300px;
-  height: 100px;
-}
 </style>
