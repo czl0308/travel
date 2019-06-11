@@ -8,6 +8,10 @@ import router from './router'
 import './assets/styles/reset.css'
 // 1像素边框
 import './assets/styles/border.css'
+// 引入swiper滑动库
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import 'swiper/dist/css/swiper.css'
+Vue.use(VueAwesomeSwiper)
 
 // 阻止 vue 在启动时生成生产提示。
 Vue.config.productionTip = false
