@@ -44,5 +44,5 @@ export default {
   .swiper-img
     width: 100%
     position: relative
-    top: -50px
+    top: -60px
 </style>
