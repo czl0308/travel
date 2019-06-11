@@ -43,7 +43,7 @@ export default {
     .header-input
       flex: 1
       background: #fff
-      margin: 8px 8px
+      margin: 8px 16px
       padding-left: 10px
       line-height: 27px
       border-radius: 3px
@@ -51,7 +51,7 @@ export default {
       font-size: 14px
     .header-right
       display: flex
-      width: 62px
+      width: 70px
       font-size: 10px
       justify-content: flex-end
       align-items: center

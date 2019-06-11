@@ -32,10 +32,10 @@ export default {
 .wrapper >>> .swiper-pagination
   position: relative
   top: -100px
-  left: -10px
+  padding-right: 10px
   text-align: right
   .swiper-pagination-bullet-active
-    background-color red
+    background-color: red
 .wrapper
   height: 0
   padding-bottom: 40%
