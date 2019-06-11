@@ -1,13 +1,25 @@
 <template>
   <div class="header">
     <div class="header-left">
-      <!-- <span class="iconfont iconzuo"></span> -->
+      <!-- 返回图标 -->
       <svg class="icon" aria-hidden="true">
         <use xlink:href="#iconzuo"></use>
       </svg>
     </div>
-    <div class="header-input">输入城市景点</div>
-    <div class="header-right">城市</div>
+    <div class="header-input">
+      <!-- 搜索图标 -->
+      <svg class="icon" aria-hidden="true">
+        <use xlink:href="#iconiconfontzhizuobiaozhun22"></use>
+      </svg>
+      输入城市/景点/游玩主题
+    </div>
+    <div class="header-right">
+      <span>城市</span>
+      <!-- 下拉图标 -->
+      <svg class="icon" aria-hidden="true">
+        <use xlink:href="#iconxiala"></use>
+      </svg>
+    </div>
   </div>
 </template>
 
@@ -26,7 +38,8 @@ export default {
     color: #fff
     .header-left
       width: 32px
-      font-size: 32px
+      font-size: 23px
+      padding-left: 8px
     .header-input
       flex: 1
       background: #fff
@@ -35,7 +48,15 @@ export default {
       line-height: 27px
       border-radius: 3px
       color: #999
+      font-size: 14px
     .header-right
+      display: flex
       width: 62px
-      text-align: center
+      font-size: 10px
+      justify-content: flex-end
+      align-items: center
+      padding-right: 15px
+      span
+        font-size: 16px
+        margin-right: 5px
 </style>
